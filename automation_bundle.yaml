@@ -1,0 +1,16 @@
+assets:
+  - name: supervisor_agent.py
+    type: job
+    compute: serverless
+    schedule: manual
+  - name: pharma_genie_space.json
+    type: file
+  - name: bakehouse_genie_space.json
+    type: file
+  - name: requirements.txt
+    type: file
+  - name: Dockerfile
+    type: file
+environment:
+  python: 3.10
+  requirements: requirements.txt

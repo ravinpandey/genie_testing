@@ -1,0 +1,16 @@
+{
+  "name": "Pharma RAG & Agentic AI Platform - SciLifeLab",
+  "tables": [
+    "workspace.pharma_rag.publications",
+    "workspace.pharma_rag.assay_protocols",
+    "workspace.pharma_rag.screening_outputs",
+    "workspace.pharma_rag.ml_predictions",
+    "workspace.pharma_rag.expert_validations",
+    "workspace.pharma_rag.rag_query_audit"
+  ],
+  "metrics": ["certified_kpi", "activity_score"],
+  "governance": {
+    "acl_source": "workspace.pharma_rag.access_acl",
+    "audit_log_table": "workspace.pharma_rag.rag_query_audit"
+  }
+}

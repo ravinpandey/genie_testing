@@ -1,0 +1,11 @@
+{
+  "name": "Bakehouse Sales Starter Space",
+  "tables": [
+    "samples.bakehouse.media_customer_reviews"
+  ],
+  "metrics": ["sales_kpi", "customer_satisfaction"],
+  "governance": {
+    "acl_source": "workspace.pharma_rag.access_acl",
+    "audit_log_table": "workspace.pharma_rag.rag_query_audit"
+  }
+}
